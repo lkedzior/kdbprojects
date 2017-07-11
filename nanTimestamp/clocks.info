@@ -1,0 +1,8 @@
+How the clocks work
+1) timer - licznik uaktualniany w czasie prerwan, accurate but precission is around 1ms on windows
+
+2) peformance counter
+counter of cpu ccycles, there are now special chips on motherboards which just do cycles counting
+resolution ~100ns or 0.1 microsecond
+
+Clocks normally use combinations of both 1) & 2) to get the time
